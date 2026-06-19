@@ -16,7 +16,7 @@ st.markdown(hide_style, unsafe_allow_html=True)
 # ================= 側邊欄 (Sidebar) 聯絡資訊與技能 =================
 with st.sidebar:
     st.title("聯絡資訊")
-    st.write("📧 yuching.audio@example.com")
+    st.write("📧 114b03996@mailst.cjcu.edu.tw")
     st.write("🔗 [Podcast 作品集連結](#)")
     st.write("📍 台灣 (Taiwan)")
     
@@ -55,17 +55,16 @@ st.divider()
 # 2. 獲獎紀錄 (Awards)
 st.header("🏆 獲獎紀錄")
 st.success(
-    "**第 XX 屆 金聲獎 (Golden Voice Awards)** \n"
-    "* 🎖️ **最佳文教節目獎** —— 原創 Podcast《城市呢喃》\n"
-    "* 🎖️ **最佳音效設計獎** —— 原創 Podcast《城市呢喃》"
-)
+    "**第 23 屆 金聲獎 (Golden Voice Awards)** \n"
+    "* 🎖️ **最佳單元節目獎** —— 原創 Podcast《你今天被賣掉了幾次》\n"
+    )
 st.write("<br>", unsafe_allow_html=True) # 增加一點垂直間距
 
 # 3. 核心專案與經歷 (Experience)
 st.header("💼 核心專案與經歷")
 
-st.subheader("獨立企劃 / 錄音 / 後期混音 | 《城市呢喃》Podcast")
-st.caption("2023 - 至今")
+st.subheader("獨立企劃 / 錄音 / 後期混音 | 《你今天被賣掉了幾次》Podcast")
+st.caption("2026")
 st.markdown(
     """
     * 策劃結合聲音紀錄片與訪談的原創 Podcast 節目。
@@ -76,7 +75,7 @@ st.markdown(
 st.write("<br>", unsafe_allow_html=True)
 
 st.subheader("音頻總監 / 剪輯師 | 商業 Podcast 頻道代工")
-st.caption("2021 - 2024")
+st.caption("2025 - 至今")
 st.markdown(
     """
     * 協助超過 5 個不同領域（包含財經、心理學、生活風格）的創作者與品牌從零到一建立節目。
@@ -119,4 +118,4 @@ with st.expander("Podcast 節目企劃心法（金聲獎經驗談）"):
         * **黃金前 3 分鐘：** 現代人耐心有限，節目開頭必須直接拋出本集最吸引人的「鉤子 (Hook)」，或剪輯一段最精彩的精華對話作為冷開場 (Cold Open)。
         * **聲音的視覺化：** 單純講話容易疲勞，善用過場音樂 (Bumper Music) 和環境音效來暗示場景轉換，幫助聽眾在腦海中建構畫面。
         """
-    )
+    ) 
